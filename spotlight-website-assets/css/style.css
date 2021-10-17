@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:980px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+::placeholder {
+  color:#D3CFCB;
+}
+#home{
+	background: url("../images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home header{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+}
+#home header div.left{
+	display: flex;
+	align-items: center;
+}
+#home header .wrapper{
+	width: 90%;
+	min-width: 980px;
+	margin: 0 auto;
+}
+#home header div.left h1{
+	width: 65px;
+	margin-right: 50px;
+
+}
+#home header div.left h1 a{
+	width: 100%;
+	display: block;
+}
+#home header div.left h1 img{
+	width:100%;
+	display: block;
+}
+#home header ul{
+	display: flex;
+	align-items: center;
+}
+#home header ul li{
+	margin-right: 40px;
+}
+#home header ul li:last-child{
+	margin-right: 0;
+}
+#home header ul li a{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+}
+#home header ul li a img{
+	width: 12px;
+	margin-left: 10px;
+}
+#home header nav ul li a.button{
+	background-color:#2DCA73;
+  	color: white;
+  	border-bottom: 4px;
+  	padding: 15px 30px;
+  	border-radius: 5px;
+  	margin-top: -10px;
+}
+#spotlight{
+	align-items: center;
+	padding: 140px 0;
+	width: 65%;
+	margin: 0 auto;
+	color: #fff;
+}
+#spotlight h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#spotlight p{
+	margin: 20px 0 60px;
+	font-size: 18px;
+	text-align: center;
+}
+#spotlight form{
+	padding: 20px;
+	background: #fff;
+	border-radius: 6px;
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+}
+#spotlight form input[type=text] {
+	padding: 12px 20px;
+	flex: 1;
+	border: 1px solid #2DCA73;
+	background: #f1f1f1;
+	border-radius: 4px;
+}
+#spotlight form input[type=submit]{
+	padding: 12px 35px;
+	border-radius: 4px;
+	background: #2DCA73;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 15px;
+}
